@@ -59,7 +59,7 @@ def compute(input_s: str) -> int:
     for k, v in sizes.items():
         if v <= 100000:
             sum_ += v
-        print(k, v)
+        # print(k, v)
 
     return sum_
 
@@ -70,8 +70,8 @@ def main():
     args = parser.parse_args()
 
     with open(args.data_file) as f:
-        print(compute(INPUT_S))
-        # print(compute(f.read()))
+        # print(compute(INPUT_S))
+        print(compute(f.read()))
 
     return 0
 

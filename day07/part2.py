@@ -56,6 +56,7 @@ def compute(input_s: str) -> int:
                 sizes['/'.join(path[:i])] += size
 
     max_ = 40000000
+    print(sizes['/'])
     total = sizes['/'] - max_
     min_ = 10000000
 
