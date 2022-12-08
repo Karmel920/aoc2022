@@ -46,10 +46,6 @@ def compute(input_s: str) -> int:
             coords[x, y] = int(height)
             m = x
 
-    # print(coords)
-    # print(coords[2, 0])
-    # print(coords[2, 1])
-
     for x in range(m + 1):
         for y in range(n + 1):
             if x == 0:
